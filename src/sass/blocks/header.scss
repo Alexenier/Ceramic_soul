@@ -1,0 +1,15 @@
+@use '/src/sass/base/variablse.scss' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    span {
+        width: 20px;
+        height: 10px;
+
+        background-color: $dark;
+    }
+}
