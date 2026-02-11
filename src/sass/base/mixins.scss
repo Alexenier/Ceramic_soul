@@ -12,7 +12,7 @@
 
 @mixin button {
    border-radius: 2px;
-   border: 1px solid var($dark, #232323);
+   border: 1px solid $dark;
    text-align: center; 
    color: $dark;
    font-style: normal;

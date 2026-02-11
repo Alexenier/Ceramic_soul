@@ -6,10 +6,12 @@
 .btn-default {
     @include button;
     
+    display: block;
     width: 330px;
     height: 60px;
     font-size: 20px;
 
     background-color: transparent;
+    
     
 }
