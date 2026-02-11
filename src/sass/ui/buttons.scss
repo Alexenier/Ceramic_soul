@@ -1,0 +1,15 @@
+@use '/src/sass/base/variablse.scss' as *;
+@use '/src/sass/base/mixins.scss' as *;
+
+
+
+.btn-default {
+    @include button;
+    
+    width: 330px;
+    height: 60px;
+    font-size: 20px;
+
+    background-color: transparent;
+    
+}

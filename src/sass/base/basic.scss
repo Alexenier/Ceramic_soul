@@ -3,6 +3,8 @@
 @use '/src/sass/libs/fontello.css';
 @use '/src/sass/base/variablse.scss' as *;
 @use '/src/sass/pxtorem.scss' as *;
+
+@use '/src/sass/base/variablse.scss' as *;
  
 
 h1,
@@ -58,7 +60,9 @@ html {
 }
 
 
-
+body {
+	background-color: $light;
+}
 
 .container {
     width: 100%;
